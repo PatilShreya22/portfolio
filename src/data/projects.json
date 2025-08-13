@@ -1,0 +1,8 @@
+[{
+    "title":"Diabetes Prediction System",
+    "imageSrc": "/assets/projects/project.png",
+    "description":"Diabetes Prediction System – A machine learning model utilizing logistic regression to analyze health data and predict diabetes risk with accuracy, aiding early detection and informed decision-making.",
+    "skills":["Machine Learning"],
+    "demo":"https://diabetes-prediction-app-46hg.onrender.com",
+    "source":"https://github.com/PatilShreya22/diabetes-prediction-app"
+}]
