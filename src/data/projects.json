@@ -5,4 +5,20 @@
     "skills":["Machine Learning"],
     "demo":"https://diabetes-prediction-app-46hg.onrender.com",
     "source":"https://github.com/PatilShreya22/diabetes-prediction-app"
+},
+{
+    "title":"Portfolio Website",
+    "imageSrc": "/assets/projects/project.png",
+    "description":"Portfolio Website – A personal portfolio showcasing projects, skills, and experiences, professional achievements.",
+    "skills":["HTML", "CSS", "JavaScript"],
+    "demo":"",
+    "source":"https://patilshreya22.github.io/portfolio/"
+},
+{
+    "title":"KrishiLink App",
+    "imageSrc": "/assets/projects/project.png",
+    "description":"KrishiLink is a digital platform connecting farmers and buyers, enabling easy crop listing, discovery, and local transactions.",
+    "skills":["HTML", "CSS", "JavaScript","Flask"],
+    "demo":"https://krishilink.onrender.com",
+    "source":"https://github.com/PatilShreya22/KrishiLink"
 }]
