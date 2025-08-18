@@ -11,8 +11,8 @@
     "imageSrc": "/assets/projects/project.png",
     "description":"Portfolio Website – A personal portfolio showcasing projects, skills, and experiences, professional achievements.",
     "skills":["HTML", "CSS", "JavaScript"],
-    "demo":"",
-    "source":"https://patilshreya22.github.io/portfolio/"
+    "demo":"https://portfolio-v3bn.onrender.com",
+    "source":"https://github.com/PatilShreya22/portfolio"
 },
 {
     "title":"KrishiLink App",
