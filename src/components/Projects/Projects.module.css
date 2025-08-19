@@ -1,26 +1,41 @@
 @import "../../vars.css";
 
-.container{
-    margin-top: 76px;
+.container {
+    margin: 76px 10px 0 10px; /* flexible margins for mobile */
     color: var(--color-text);
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.title{
+.title {
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    text-align: center; /* center title on mobile */
 }
 
-.projects{
+.projects {
     margin-top: 37px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 15px;
     width: 100%;
+}
+
+/* ---------------- Mobile & Tablet Screens ---------------- */
+@media screen and (max-width: 830px) {
+    .container {
+        margin: 50px 5px 0 5px; /* smaller margins for mobile */
+    }
+
+    .title {
+        font-size: 24px; /* reduce font size on mobile */
+    }
+
+    .projects {
+        gap: 10px;
+    }
 }
