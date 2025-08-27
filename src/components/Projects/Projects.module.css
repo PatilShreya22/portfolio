@@ -17,13 +17,15 @@
 
 .projects {
     margin-top: 37px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* ⬅ wider base size */
+    gap: 30px;
+    justify-items: center;
     width: 100%;
 }
+
+
+
 
 /* ---------------- Mobile & Tablet Screens ---------------- */
 @media screen and (max-width: 830px) {
